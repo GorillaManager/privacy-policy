@@ -1,8 +1,8 @@
 # Translation Testing Guide
 
-**Generated:** June 4, 2025  
+**Generated:** June 26, 2025  
 **Languages:** English (en_US), Japanese (ja_JP), Bengali (bn_BD)  
-**Total Features:** 10
+**Total Features:** 12
 
 ---
 
@@ -12,7 +12,7 @@
 |-----|----------------|-----------------|------------------|
 | Username | Username | ইউজারনেম | ユーザー名 |
 | Password | Password | পাসওয়ার্ড | パスワード |
-| Confirm password | Confirm password | পাসওয়ার্ড (নিশ্চিত করুন) | パスワード(確認用) |
+| Confirm password | Confirm password | পাসওয়ার্ড (পুনরায় লিখুন) | パスワード(確認用) |
 | Current password | Current password | বর্তমান পাসওয়ার্ড | 現在のパスワード |
 | Forget password? | Forget password? | পাসওয়ার্ড ভুলে গেছেন? | パスワードを忘れた場合はこちら |
 | Don't have an account? Sign up! | Don't have an account? Sign up! | অ্যাকাউন্ট নেই? সাইন আপ করুন! | アカウントをお持ちでないですか？\n登録する! |
@@ -53,7 +53,7 @@
 | sign_up_after | (empty) | তে সম্মতি জানাচ্ছেন। | に同意したものとみなされます。 |
 | Staff login | Staff login | স্টাফ লগইন | スタッフログイン |
 | Login request was rejected. | Login request was rejected. | লগইন অনুরোধ প্রত্যাখ্যাত হয়েছে | ログインリクエストが拒否されました |
-| Login request timed out or encountered an error. | Login request timed out or encountered an error. | লগইন অনুরোধ সময় উত্তীর্ণ হয়েছে বা একটি ত্রুটি সম্মুখীন হয়েছে | ログインリクエストがタイムアウトしたか、エラーが発生しました |
+| Login request timed out or encountered an error. | Login request timed out or encountered an error. | লগইন অনুরোধ সময় উত্তীর্ণ হয়েছে বা ত্রুটির সম্মুখীন হয়েছে | ログインリクエストがタイムアウトしたか、エラーが発生しました |
 | Scan the QR code to login | Scan the QR code to login | লগইন করতে QR কোড স্ক্যান করুন | QRコードをスキャンしてログイン |
 | Ask the restaurant owner to show your QR code | Ask the restaurant owner to show your QR code | রেস্টুরেন্ট মালিককে আপনার QR কোড দেখাতে বলুন | QRコードを表示するようレストランオーナーに依頼してください |
 
@@ -87,6 +87,12 @@
 | Update category | Update category | ক্যাটাগরি আপডেট করুন | カテゴリを更新 |
 | Delete category | Delete category | ক্যাটাগরি ডিলিট করুন | カテゴリを削除 |
 | Menu Count | Menu Count | মেনু সংখ্যা | メニュー数 |
+| Category added successfully | Category added successfully | ক্যাটাগরি সফলভাবে যোগ করা হয়েছে | カテゴリが正常に追加されました |
+| Category updated successfully | Category updated successfully | ক্যাটাগরি সফলভাবে আপডেট করা হয়েছে | カテゴリが正常に更新されました |
+| Category deleted successfully | Category deleted successfully | ক্যাটাগরি সফলভাবে মুছে ফেলা হয়েছে | カテゴリが正常に削除されました |
+| Unable to fetch categories | Unable to fetch categories | ক্যাটাগরি আনতে ব্যর্থ হয়েছে | カテゴリを取得できません |
+| Unable to add category | Unable to add category | ক্যাটাগরি যোগ করতে ব্যর্থ হয়েছে | カテゴリを追加できません |
+| Unable to delete category | Unable to delete category | ক্যাটাগরি মুছতে ব্যর্থ হয়েছে | カテゴリを削除できません |
 
 ---
 
@@ -119,6 +125,23 @@
 | Copy menu groups and options | Copy menu groups and options | মেনু গ্রুপ এবং অপশন কপি করুন | メニューグループとオプションをコピー |
 | Copy menu option's images | Copy menu option's images | মেনু অপশনের ছবি কপি করুন | メニューオプションの画像をコピー |
 | Copy menu | Copy menu | মেনু কপি করুন | メニューをコピー |
+| Menu added successfully | Menu added successfully | মেনু সফলভাবে যোগ করা হয়েছে | メニューが正常に追加されました |
+| Menu updated successfully | Menu updated successfully | মেনু সফলভাবে আপডেট করা হয়েছে | メニューが正常に更新されました |
+| Menu deleted successfully | Menu deleted successfully | মেনু সফলভাবে মুছে ফেলা হয়েছে | メニューが正常に削除されました |
+| Menu group added successfully | Menu group added successfully | মেনু গ্রুপ সফলভাবে যোগ করা হয়েছে | メニューグループが正常に追加されました |
+| Menu group updated successfully | Menu group updated successfully | মেনু গ্রুপ সফলভাবে আপডেট করা হয়েছে | メニューグループが正常に更新されました |
+| Menu group deleted successfully | Menu group deleted successfully | মেনু গ্রুপ সফলভাবে মুছে ফেলা হয়েছে | メニューグループが正常に削除されました |
+| Menu group option added successfully | Menu group option added successfully | মেনু গ্রুপ অপশন সফলভাবে যোগ করা হয়েছে | メニューグループオプションが正常に追加されました |
+| Menu group option updated successfully | Menu group option updated successfully | মেনু গ্রুপ অপশন সফলভাবে আপডেট করা হয়েছে | メニューグループオプションが正常に更新されました |
+| Menu group option deleted successfully | Menu group option deleted successfully | মেনু গ্রুপ অপশন সফলভাবে মুছে ফেলা হয়েছে | メニューグループオプションが正常に削除されました |
+| Unable to fetch menus | Unable to fetch menus | মেনু আনতে ব্যর্থ হয়েছে | メニューを取得できません |
+| Unable to add menu | Unable to add menu | মেনু যোগ করতে ব্যর্থ হয়েছে | メニューを追加できません |
+| Unable to delete menu | Unable to delete menu | মেনু মুছতে ব্যর্থ হয়েছে | メニューを削除できません |
+| Unable to fetch menu groups | Unable to fetch menu groups | মেনু গ্রুপ আনতে ব্যর্থ হয়েছে | メニューグループを取得できません |
+| Unable to add menu group | Unable to add menu group | মেনু গ্রুপ যোগ করতে ব্যর্থ হয়েছে | メニューグループを追加できません |
+| Unable to delete menu group | Unable to delete menu group | মেনু গ্রুপ মুছতে ব্যর্থ হয়েছে | メニューグループを削除できません |
+| Unable to add menu group option | Unable to add menu group option | মেনু গ্রুপ অপশন যোগ করতে ব্যর্থ হয়েছে | メニューグループオプションを追加できません |
+| Unable to delete menu group option | Unable to delete menu group option | মেনু গ্রুপ অপশন মুছতে ব্যর্থ হয়েছে | メニューグループオプションを削除できません |
 
 ---
 
@@ -181,6 +204,11 @@
 | Customers are called from the tables below. | Customers are called from the tables below. | ক্রেতারা নিচের টেবিলগুলি থেকে সাহায্যের জন্য ডাকছে | お客様は以下のテーブルから呼ばれます |
 | Acknowledge | Acknowledge | বুঝতে পেরেছি | 承認する |
 | Table @table_tableNo is calling for assistance | Table @table_tableNo is calling for assistance | টেবিল @table_tableNo থেকে সাহায্যের জন্য ডাকছে | テーブル@table_tableNoがスタッフを呼んでいます |
+| Table added successfully | Table added successfully | টেবিল সফলভাবে যোগ করা হয়েছে | テーブルが正常に追加されました |
+| Table deleted successfully | Table deleted successfully | টেবিল সফলভাবে মুছে ফেলা হয়েছে | テーブルが正常に削除されました |
+| Unable to add table at the moment | Unable to add table at the moment | এই মুহূর্তে টেবিল যোগ করতে ব্যর্থ হয়েছে | 現在テーブルを追加できません |
+| Unable to delete table at the moment | Unable to delete table at the moment | এই মুহূর্তে টেবিল মুছতে ব্যর্থ হয়েছে | 現在テーブルを削除できません |
+| Delete Table no. @table_no | Delete Table no. @table_no | টেবিল নং @table_no ডিলিট করুন | テーブル@table_noを削除 |
 
 ---
 
@@ -208,6 +236,17 @@
 | Device info: @device | Device info: @device | ডিভাইস তথ্য: @device | デバイス情報: @device |
 | Accept | Accept | অনুমোদন | 承認 |
 | Reject | Reject | প্রত্যাখ্যান | 拒否 |
+| Staff added successfully | Staff added successfully | স্টাফ সফলভাবে যোগ করা হয়েছে | スタッフが正常に追加されました |
+| Staff updated successfully | Staff updated successfully | স্টাফ সফলভাবে আপডেট করা হয়েছে | スタッフが正常に更新されました |
+| Staff deleted successfully | Staff deleted successfully | স্টাফ সফলভাবে মুছে ফেলা হয়েছে | スタッフが正常に削除されました |
+| Staff code updated successfully | Staff code updated successfully | স্টাফ কোড সফলভাবে আপডেট করা হয়েছে | スタッフコードが正常に更新されました |
+| Staff login request updated successfully | Staff login request updated successfully | স্টাফ লগইন অনুরোধ সফলভাবে আপডেট করা হয়েছে | スタッフログインリクエストが正常に更新されました |
+| Unable to fetch staff data at the moment | Unable to fetch staff data at the moment | এই মুহূর্তে স্টাফের তথ্য আনতে ব্যর্থ হয়েছে | 現在スタッフデータを取得できません |
+| Unable to add staff | Unable to add staff | স্টাফ যোগ করতে ব্যর্থ হয়েছে | スタッフを追加できません |
+| Unable to delete staff | Unable to delete staff | স্টাফ মুছতে ব্যর্থ হয়েছে | スタッフを削除できません |
+| Unable to update staff code at the moment | Unable to update staff code at the moment | এই মুহূর্তে স্টাফ কোড আপডেট করতে ব্যর্থ হয়েছে | 現在スタッフコードを更新できません |
+| Unable to approve staff login at the moment | Unable to approve staff login at the moment | এই মুহূর্তে স্টাফ লগইন অনুমোদন করতে ব্যর্থ হয়েছে | 現在スタッフログインを承認できません |
+| Delete @staff_name | Delete @staff_name | @staff_name ডিলিট করুন | @staff_nameを削除 |
 
 ---
 
@@ -284,5 +323,48 @@
 | Last order time (min) | Last order time (min) | শেষ অর্ডারের সময় (মিনিটে) | ラストオーダー時間 (分単位) |
 | Select last order interval | Select last order interval | শেষ অর্ডারের সময় নির্বাচন করুন | ラストオーダーの時間を選択 |
 | Select | Select | নির্বাচন করুন | 選択 |
+
+---
+
+## Print/Receipt Management Feature
+
+| Key | English (en_US) | Bengali (bn_BD) | Japanese (ja_JP) |
+|-----|----------------|-----------------|------------------|
+| Bluetooth is Off! | Bluetooth is Off! | ব্লুটুথ বন্ধ রয়েছে! | Bluetoothがオフです！ |
+| Please enable Bluetooth to connect to your printer. | Please enable Bluetooth to connect to your printer. | প্রিন্টারের সাথে সংযোগ করতে অনুগ্রহ করে ব্লুটুথ চালু করুন। | プリンターに接続するにはBluetoothを有効にしてください。 |
+| Settings | Settings | সেটিংস | 設定 |
+| Permission Denied | Permission Denied | অনুমতি প্রত্যাখ্যান | 権限が拒否されました |
+| Bluetooth and location permissions are required for scanning. Please grant permissions in app settings. | Bluetooth and location permissions are required for scanning. Please grant permissions in app settings. | স্ক্যান করার জন্য ব্লুটুথ এবং অবস্থানের অনুমতি প্রয়োজন। অ্যাপ সেটিংসে অনুমতি দিন। | スキャンにはBluetoothと位置情報の権限が必要です。アプリ設定で権限を許可してください。 |
+| Location Services Disabled | Location Services Disabled | লোকেশন পরিষেবা বন্ধ রয়েছে | 位置情報サービスが無効 |
+| Location services are required for Bluetooth scanning on this device. Please enable location services. | Location services are required for Bluetooth scanning on this device. Please enable location services. | এই ডিভাইসে ব্লুটুথ স্ক্যান করতে লোকেশন পরিষেবা প্রয়োজন। অনুগ্রহ করে এটি চালু করুন। | このデバイスでBluetoothスキャンを行うには位置情報サービスが必要です。位置情報サービスを有効にしてください。 |
+| Location Services Disabled | Location Services Disabled | অবস্থান সেবা নিষ্ক্রিয়! | 位置情報サービスが無効です！ |
+| Please enable Location services to scan for Bluetooth printers. | Please enable Location services to scan for Bluetooth printers. | ব্লুটুথ প্রিন্টার স্ক্যান করতে অনুগ্রহ করে লোকেশন পরিষেবা চালু করুন। | Bluetoothプリンターをスキャンするには位置情報サービスを有効にしてください。 |
+| Scan | Scan | স্ক্যান | スキャン |
+| No Devices Found | No Devices Found | কোনো ডিভাইস পাওয়া যায়নি | デバイスが見つかりません |
+| No Bluetooth printers were found. Make sure your printer is in pairing mode. | No Bluetooth printers were found. Make sure your printer is in pairing mode. | কোনো ব্লুটুথ প্রিন্টার পাওয়া যায়নি। আপনার প্রিন্টারটি পেয়ারিং মোডে আছে কি না নিশ্চিত করুন। | Bluetoothプリンターが見つかりませんでした。プリンターがペアリングモードになっていることを確認してください。 |
+| Scan Error | Scan Error | স্ক্যান ত্রুটি | スキャンエラー |
+| Failed to scan for Bluetooth devices. Please try again. | Failed to scan for Bluetooth devices. Please try again. | ব্লুটুথ ডিভাইস স্ক্যান করতে ব্যর্থ হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন। | Bluetoothデバイスのスキャンに失敗しました。もう一度お試しください。 |
+| Connect | Connect | সংযোগ | 接続 |
+| Connection Failed | Connection Failed | সংযোগ ব্যর্থ | 接続失敗 |
+| Failed to connect to the printer. Please try again. | Failed to connect to the printer. Please try again. | প্রিন্টারের সাথে সংযোগ করতে ব্যর্থ হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন। | プリンターへの接続に失敗しました。もう一度お試しください。 |
+| Printer connected successfully | Printer connected successfully | প্রিন্টার সফলভাবে সংযুক্ত হয়েছে | プリンターが正常に接続されました |
+| Device not found after scanning for @seconds seconds | Device not found after scanning for @seconds seconds | @seconds সেকেন্ড স্ক্যান করার পর ডিভাইস পাওয়া যায়নি | @seconds秒間スキャンした後、デバイスが見つかりませんでした |
+| Printer Disconnected | Printer Disconnected | প্রিন্টারের সংযোগ বিচ্ছিন্ন | プリンターが切断されました |
+| The printer has been disconnected. | The printer has been disconnected. | প্রিন্টারের সংযোগ বিচ্ছিন্ন হয়ে গেছে। | プリンターが切断されました。 |
+| Your bluetooth printer is not connected. | Your bluetooth printer is not connected. | আপনার ব্লুটুথ প্রিন্টার সংযুক্ত নেই। | Bluetoothプリンターが接続されていません。 |
+| Printing successful | Printing successful | সফলভাবে প্রিন্ট হয়েছে | 印刷成功 |
+| Printing failed | Printing failed | প্রিন্ট করতে ব্যর্থ হয়েছে | 印刷失敗 |
+| Could not open Bluetooth settings. Please enable Bluetooth manually. | Could not open Bluetooth settings. Please enable Bluetooth manually. | ব্লুটুথ সেটিংসটি খোলা সম্ভব হচ্ছে না। অনুগ্রহ করে ব্লুটুথ ম্যানুয়ালি চালু করুন। | Bluetooth設定を開けませんでした。手動でBluetoothを有効にしてください。 |
+| Could not open Location settings. Please enable Location services manually. | Could not open Location settings. Please enable Location services manually. | লোকেশন সেটিংস খোলা সম্ভব হচ্ছে না। অনুগ্রহ করে লোকেশন পরিষেবা ম্যানুয়ালি চালু করুন। | 位置情報設定を開けませんでした。手動で位置情報サービスを有効にしてください। 
+
+---
+
+## Billing Management Feature
+
+| Key | English (en_US) | Bengali (bn_BD) | Japanese (ja_JP) |
+|-----|----------------|-----------------|------------------|
+| Unable to fetch bill data | Unable to fetch bill data | বিল তথ্য আনতে ব্যর্থ হয়েছে | 請求データを取得できません |
+| Failed to send bill | Failed to send bill | বিল পাঠাতে ব্যর্থ | 請求書の送信に失敗しました |
+| Bill sent successfully | Bill sent successfully | বিল সফলভাবে পাঠানো হয়েছে | 請求書が正常に送信されました |
 
 ---
